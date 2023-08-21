@@ -544,7 +544,10 @@ function showingKitchen1(){
     const balanceTotalAverage = document.getElementById("balance-total");
     const itemsAll = document.getElementById("items-all-show");
     const inputField = document.getElementById("input-field");
-    
+    const purchaseButton = document.getElementById('btn-purchase');
+    purchaseButton.disabled = true;
+    const applyButton = document.getElementById("apply-btn");
+    applyButton.disabled = true;
     
     
     
